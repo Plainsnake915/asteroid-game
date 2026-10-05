@@ -9,7 +9,7 @@ screen = pygame.display.set_mode((600, 400))
 pygame.display.set_caption("Asteroids")
 clock = pygame.time.Clock()
 
-
+#
 class Asteroid:
     def __init__(self, x, y, dx, dy, r):
         self.pos = pygame.math.Vector2(x, y)
